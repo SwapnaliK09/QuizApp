@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/primary"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_quiz"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Online Quiz App"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Play and Fun"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="#99ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startQuizBtn"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Start Quiz"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/round_back_secondary"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quitBtn"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Quit Application Quiz"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/round_back_sec_str_100"/>
+</LinearLayout>
